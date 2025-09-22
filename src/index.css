@@ -1,0 +1,47 @@
+/* index.css - Global styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f9; /* light gray background */
+  color: #333;
+}
+
+/* Center content on each page */
+.page-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #2a5298; /* primary blue */
+  margin-bottom: 12px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Buttons (can reuse in forms later) */
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin-top: 12px;
+  background: #2a5298;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1e3c72;
+}

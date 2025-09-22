@@ -1,0 +1,45 @@
+.goals-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.goal-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.goal-input input {
+  padding: 8px;
+  font-size: 16px;
+  width: 70%;
+}
+
+.goal-input button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.goal-list {
+  list-style: none;
+  padding: 0;
+}
+
+.goal-list li {
+  padding: 8px;
+  margin: 6px 0;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.goal-list button {
+  padding: 4px 8px;
+  cursor: pointer;
+}
